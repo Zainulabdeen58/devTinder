@@ -16,7 +16,7 @@ app.post("/signup" , async (req , res)=>{
         age : 21,
         email : "dummy@gmail.com",
         gender : "Male",
-        password : "1"
+        password : "1550"
     }
        try {
         const user = new User(data);
